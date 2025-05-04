@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-size: areal;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #222108;
+    color: aliceblue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 53px;
+    width: 160px;
+
+}
+.logo{
+    background-image:url(aeicon.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+.border{
+    border: 2px solid transparent;
+}
+/* second box */
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: #ffff;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.border:hover{
+    border: 2px solid rgb(248, 242, 242);
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height:40px ; 
+    border-radius: 9px;
+    margin-left: 10px;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width:100%;  /* it cover left area */
+    font-size: 1em;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.5rem;
+    background-color: rgb(232, 176, 46);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#1b1717;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* box 4 */
+span{
+    font-size: 1rem;
+}
+.nav-second{
+   font-size: 0.8rem; 
+   font-weight: 600;
+}
+/* box 5 */
+.nav-cart i{
+     font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+/* pannel making 6:27:22 */
+.pannel{
+    height: 40px;
+    background-color: #222f22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-ops{
+    width: 75%;
+    font-size: 0.85rem;
+}
+.pannel-deal{
+    font-size: 0.9rem; 
+    font-weight: 600;
+}
+/* hero section */
+.hero-section{
+    height: 300px;
+    background-image: url(heroimage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.hero-message a{
+    color: #007185;
+}
+/* shop section */
+.box{
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 12px 0px 12px;
+    margin-top: 10px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-image{
+    height: 220px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content p{
+    color: #007185;
+}
+/* design footer */
+.footer{
+    margin-top: 15px;
+}
+.footer-pannel1{
+    height: 50px;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.footer-pannel2{
+    background-color:#232f3e ;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-pannel2 ul{
+    margin-top: 20px;
+}
+.footer-pannel2 ul a{
+    display: block;
+    font-size: 0.85;
+    margin-top: 10px;
+    color: #dddd;
+}
+.footer-pannel3{
+    background-color:#232f3e ;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-pannel4{
+    height: 76px;
+    background-color:#0f1111 ;
+    color: white;
+    padding-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.pages{
+    margin-top: 5px;
+}
+.copyright{
+   margin-top: 5px;
+}
